@@ -1,0 +1,8 @@
+digraph G {
+"base_link" -> "end_link"[label="Broadcaster: /rob_state_pub\nAverage rate: 10.201 Hz\nMost recent transform: 1472859610.609 ( 0.015 sec old)\nBuffer length: 4.902 sec\n"];
+"base_link" -> "alt_link"[label="Broadcaster: /rob_state_pub\nAverage rate: 10.201 Hz\nMost recent transform: 1472859610.609 ( 0.015 sec old)\nBuffer length: 4.902 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1472859610.624"[ shape=plaintext ] ;
+ }->"base_link";
+}
